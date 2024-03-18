@@ -1,20 +1,356 @@
-/* 1. don't modify this style */
+@import "header.css";
+@font-face {
+  font-family: rubik;
+  src: url(../assets/fonts/Rubik-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
-
   box-sizing: border-box;
-}
+  font-family: Poppins, serif;
 
+}
+body{
+  width: 1440px;
+  color: white;
+
+}
 /* 2. we use :root for default variables */
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
+  --primary-100: #3B2A9F;
+  --secondary:#FA8305;
+  --white:#ffffff;
+  --primary2-100 : #5141AA;
+  --gray : #898989;
   --black-700: #000;
+
 }
 /* 3. and we use it like this */
-.elementOne {
-  /* var(--"somekey-attr") */
-  background-color: var(--black-700);
+.div5{
+  background-color: var(--primary-100);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#img{
+  margin-left:147px;
+  width:806px;
+  height:761px;
+}
+#img1{
+  width: 59px;
+  height: 64px;
+  position: absolute;
+  left: 1168px;
+  top: 202px;
+}
+#img2{
+  width: 101px;
+  height: 99px;
+  position: absolute;
+  left: 828px;
+  top: 190px;
+}
+#img3{
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  left: 649px;
+  top: 409px;
+}
+#pa{
+  width: 527px;
+  height: 409px;
+}
+
+main{
+  background-color: var(--primary-100);
+}
+.div6{
+  margin-left: 147px;
+  height: 409px;
+  width:max-content;
+  margin-top: 203px;
+
+}
+#p1{
+  font-weight: 700;
+  width: 479px;
+  color: var(--secondary);
+  font-size: 20px;
+}
+
+#p2{
+  color: var(--white);
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 17px;
+
+}
+#p3{
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 26px;
+
+}
+#btn{
+  width: 195px;
+  height: 53px;
+  margin-top: 48px;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: var(--secondary);
+  border:none;
+  color: var(--white);
+}
+#btn a{
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--white);
+}
+
+#btn1{
+  background-color: #5141AA;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  line-height: 37.5px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 47px;
+  margin-left: 110px;
+  margin-right: 146px;
+  margin-top: 57px;
+}
+#div7-top{
+  font-family: rubik, serif;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+#spn{
+  font-family: rubik, serif;
+font-weight: 700;
+  font-size: 31px;
+  line-height: 58px;
+  margin-left: 120px;
+}
+.fire{
+  width: 25px;
+  height: 25px;
+}
+.picture-caption{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9px;
+  color: var(--white);
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+}
+.games:hover{
+  opacity: 0.5;
+}
+#div9{
+  width: 826px;
+  height:132px;
+  margin-left: 308px;
+  font-family: Poppins,sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 65.63px;
+  display: flex;
+  text-align: center;
+  margin-right: 306px;
+  margin-top: 150px;
+
+}
+.span1:hover .fire{
+  transform: scale(2);
+}
+#span2{
+  margin-bottom: 32px;
+  display: block;
+  font-family: Poppins, serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: left;
+
+}
+#p4{
+  width: 545px;
+  height: 101px;
+  margin-top: 67px;
+  margin-left: 147px;
+  font-family: Poppins,serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+}
+#div10{
+  margin-top: 150px;
+  margin-left: 148px;
+}
+#dots{
+  position: absolute;
+  left: 972px;
+  top: 1810px;
+
+
+}
+#spider{
+
+  width: 1146px;
+  height: 462px;
+  border-radius: 5px;
+  margin-top: 46px;
+  /*margin-left: 148px;*/
+  margin-right: 146px;
+  z-index: 1;
+  position: relative;
+}
+.div11{
+  width: 1440px;
+  height: 678px;
+}
+.div12{
+  margin-top: 148px;
+  color: var(--white);
+}
+
+.div12 span{
+  width: 305px;
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 568px;
+  margin-right: 567px;
+}
+.div12 p{
+  width: 497px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 472px;
+  margin-right: 470px;
+}
+.div13{
+  margin-top: 71px;
+  margin-left: 136px;
+  margin-right: 134px;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+.image1{
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+
+}
+#see-all-button{
+  margin-left: 651px;
+  margin-right: 650px;
+  margin-top: 72px;
+  width: 139px;
+  height: 57px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: var(--primary2-100);
+  border: 2px solid var(--primary2-100);
+  border-radius: 10px;
+  color: var(--white);
+}
+
+.div14{
+  margin-top: 234px;
+  width: 545px;
+  height: 129px;
+  margin-left: 148px;
+  color: var(--white);
+}
+
+.div14 span{
+  font-weight: 600;
+  font-size: 30px;
+}
+.div14 p{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 32px;
+}
+.div15{
+  background-color:#1C140F;
+  width: 1170px;
+  height: 189px;
+  border-radius: 15px;
+  margin-left: 136px;
+  margin-right: 134px;
+  margin-top: 74px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.div16{
+  color: var(--white);
+  width: 636px;
+  height: 107px;
+  margin-left: 56px;
+  margin-top: 40px;
+  margin-bottom: 41px;
+}
+.div16 span{
+  font-weight: 500;
+  font-size: 30px;
+}
+.div16 p{
+  width: 636px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.div17{
+  width: 385.68px;
+  height: 48px;
+  margin-top: 71px;
+  margin-right: 30px;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div17 p{
+
+  font-size: 13px;
+  font-weight: 300;
+  width: 200px;
+  height: 20px;
+  color: var(--gray);
+  margin-left: 35px;
+}
+.div17 button{
+  background-color: var(--secondary);
+  color: var(--white);
+  width: 105px;
+  height: 37px;
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  margin-right: 6px;
+  margin-top: 1px;
 }
 
 /* good luck */
