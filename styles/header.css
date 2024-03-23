@@ -28,6 +28,7 @@ body{
 }
 /* 3. and we use it like this */
 
+
 #div1 {
     background-color: var(--primary-100);
     height: 100px;

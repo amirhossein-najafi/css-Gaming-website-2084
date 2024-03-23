@@ -1,3 +1,4 @@
+@import "footer.css";
 @font-face {
     font-family: rubik;
     src: url(../assets/fonts/Rubik-Regular.ttf);
@@ -28,7 +29,24 @@ body{
     --black: #1C140F;
 }
 /* 3. and we use it like this */
-
+#line{
+    width: 30.97px;
+    height: 4px;
+    background-color: #FA8305;
+    border-radius: 20px;
+  }
+#dot{
+    width: 5px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: #FA8305;
+  }
+.line-dot{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin-top: 6.8px;
+  }
 main{
     background-color: var(--primary);
 }
@@ -257,7 +275,8 @@ main{
     font-size: 25px;
     line-height: 45.12px;
     margin-top: 148px;
-    margin-left: 110px;
+    margin-left: 90px;
+    margin-bottom: 53px;
 }
 .div13{
     display: flex;
@@ -282,13 +301,11 @@ main{
     height: 123px;
 }
 .div14-p1{
+    width: 200px;
     font-weight: 600;
     font-size: 19px;
-    line-height: 38.48px;
-    margin-left: 96px;
-    margin-right: 93px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    line-height: 38px;
+    margin: 0 93px 0 96px;
 }
 .div14-p2{
     font-family:Rubik,serif;
